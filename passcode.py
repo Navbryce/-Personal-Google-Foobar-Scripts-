@@ -2,7 +2,7 @@ def answer(l):
     # ensures only unique combinations
     triples = 0
 
-    for index, number in enumerate(l): # only does unique combinations
+    for index, number in enumerate(l):
         divisors = 0
         multiples = 0
         triples_for_number = 0
